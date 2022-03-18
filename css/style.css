@@ -1,0 +1,345 @@
+/*common part css*/
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* lookup part css  start*/
+.lookup {
+    margin: auto;
+    width: 375px;
+    padding: 70px 16px 150px;
+    background-color: #ffffff;
+}
+
+.content-header {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.content-header h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product {
+    padding-bottom: 48px;
+}
+
+.product h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.product-input {
+    position: relative;
+}
+
+.product .product-input input {
+    height: 45px;
+    width: 290px;
+    padding-left: 45px;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1px solid #c6c1c1;
+    box-shadow: 0px 2px 7px 0px #0000001A;
+
+}
+
+.product-input input::placeholder {
+    color: #cac8c8;
+}
+
+.product .product-input .search-icon {
+    top: 50%;
+    border: 0;
+    left: 18px;
+    display: flex;
+    font-size: 20px;
+    color: #cac8c8;
+    position: absolute;
+    background: transparent;
+    transform: translateY(-50%);
+}
+
+.product .checkbox {
+    padding-top: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.product .checkbox label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product .checkbox input {
+    margin-top: 1px;
+    margin-left: 15px;
+    transform: scale(1.5);
+}
+
+.search-location {
+    position: relative;
+}
+
+.search-location select {
+    height: 48px;
+    width: 160px;
+    font-size: 18px;
+    color: #000000;
+    border-radius: 7px;
+    padding-left: 50px;
+    -webkit-appearance: none;
+    border: 1px solid #CCCCCC;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.search-location .select-icon {
+    left: 20px;
+    top: 50%;
+    font-size: 15px;
+    color: #CCCCCC;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.product h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.search-btn {
+    text-align: center;
+}
+
+.search-btn button {
+    border: 0;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #f26522;
+}
+
+/* lookup part css  end*/
+
+/* results part css  start*/
+.results {
+    margin: auto;
+    width: 375px;
+    padding: 70px 16px 250px;
+    background-color: #ffffff;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.countbox {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.shirt-code,
+.shirt-color {
+    margin-bottom: 8px;
+}
+
+.shirt-code a,
+.shirt-color a {
+    color: #1DC0E4;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.location span,
+.man-part span,
+.stock span {
+    font-size: 12px;
+    color: #C6C1C1;
+    font-weight: 500;
+}
+
+.location,
+.man-part,
+.stock,
+.view-children {
+    margin-bottom: 8px;
+}
+
+.countbox-icon a {
+    color: #CCCCCC;
+}
+
+/* results part css  end*/
+
+/* details part css  start*/
+
+.details {
+    margin: auto;
+    width: 375px;
+    padding: 70px 16px;
+    background-color: #ffffff;
+}
+
+.details-img {
+    text-align: center;
+}
+
+.product-content {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.product-content p {
+    font-size: 16px;
+    color: #A19F9F;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.product-content p span {
+    color: #000000
+}
+
+.product-content .public-view-btn {
+    border: 0;
+    width: 165px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #1DC0E4;
+}
+
+
+.location-box {
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    margin-bottom: 16px;
+}
+
+.loaction-text {
+    width: 20%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A19F9F;
+}
+
+.loaction-input input {
+    height: 50px;
+    width: 130px;
+    padding: 0 25px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+}
+
+.product-content p small {
+    font-size: 18px;
+    color: #474747;
+}
+
+.loaction-text a {
+    color: #1DC0E4;
+}
+
+.loaction-input p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #FF0C0C;
+    text-align: center;
+    margin: 0;
+}
+
+.update-btn {
+    padding-top: 10px;
+}
+
+.update-btn button {
+    border: 0;
+    height: 45px;
+    width: 155px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #f26522;
+}
+
+.kit-include {
+    padding-top: 25px;
+}
+
+.kit-include h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #A19F9F;
+    margin-bottom: 16px;
+}
+
+.kit-content {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-flex;
+    margin-bottom: 16px;
+}
+
+.prodect-name a {
+    color: #1DC0E4;
+}
+
+.prodect-name {
+    width: 50%;
+}
+
+.prodect-qty {
+    color: #000000;
+}
+
+/* details part css  end*/

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>LOOK UP</title>
+</head>
+
+<body>
+    <!-- lookup part html start-->
+    <div class="lookup">
+        <div class="content-header">
+            <h4>Lookup</h4>
+        </div>
+        <form>
+            <div class="product">
+                <h5>Product ID</h5>
+                <div class="product-input">
+                    <input type="text" placeholder="Search by Product ID">
+                    <button class="search-icon">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <h5>Name / Part #</h5>
+                <div class="product-input">
+                    <input type="text" placeholder="Search by Name / Part">
+                    <button class="search-icon">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </div>
+                <div class="checkbox">
+                    <label for="discontinued">Include Discontinued:</label>
+                    <input type="checkbox" id="discontinued" name="discontinued">
+                </div>
+            </div>
+            <div class="product">
+                <h4>Search by Location:</h4>
+                <div class="search-location">
+                    <select name="location" id="location">
+                        <option value="A1-01-01">A1-01-01</option>
+                        <option value="A1-01-02">A1-01-02</option>
+                        <option value="A1-01-03">A1-01-03</option>                    </select>
+                    <a class="select-icon">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="search-btn">
+                <button type="submit">Search</button>
+            </div>
+        </form>
+    </div>
+    <!-- lookup part html end-->
+    <!-- icon js -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+
+</html>
